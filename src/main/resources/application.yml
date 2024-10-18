@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+zuul:
+  routes:
+    service1:
+      path: /service1/**
+      url: http://157.230.41.132:8080
